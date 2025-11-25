@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <main className={classes["root"]}>
-      <BrowserRouter>
+      <BrowserRouter basename="/react-creative-coding">
         <MainHeader className={classes["main-header"]} />
 
         <section className={classes["main-content"]}>
