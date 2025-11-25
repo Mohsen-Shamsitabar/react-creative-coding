@@ -1,7 +1,7 @@
 const mergeCss = (...classNames: (string | undefined)[]) => {
   let result: string = "";
 
-  classNames.forEach((className, idx) => {
+  classNames.forEach(className => {
     if (typeof className === "undefined") {
       return;
     }
