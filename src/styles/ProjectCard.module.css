@@ -1,0 +1,46 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--project-card-bgc);
+  border: 0.1rem solid var(--border-color);
+
+  width: 100%;
+
+  padding: 0.5rem;
+
+  cursor: pointer;
+}
+
+.root:hover {
+  background-color: var(--project-card-bgc-hover);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-right: 1rem;
+}
+
+.title {
+  margin: 0 0 1rem;
+  text-align: start;
+}
+
+.description {
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  border: 0.1rem solid var(--border-color);
+
+  aspect-ratio: 1/1;
+  width: 6rem;
+}

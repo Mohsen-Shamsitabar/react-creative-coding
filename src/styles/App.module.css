@@ -1,0 +1,13 @@
+.root {
+  width: var(--screen-width);
+  height: var(--screen-height);
+  overflow: hidden;
+}
+
+.main-header {
+  height: var(--mainheader-height);
+}
+
+.main-content {
+  height: var(--maincontent-height);
+}

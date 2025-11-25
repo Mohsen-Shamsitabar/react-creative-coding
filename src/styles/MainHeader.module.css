@@ -1,0 +1,5 @@
+.root {
+  background-color: var(--bgc-sub);
+  border-bottom: 0.1rem solid var(--border-color);
+  text-align: center;
+}
