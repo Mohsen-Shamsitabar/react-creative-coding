@@ -8,4 +8,7 @@ export type Project = {
   image?: string;
 };
 
+/**
+ * [x, y]
+ */
 export type Position = [number, number];
