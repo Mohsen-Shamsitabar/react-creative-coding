@@ -1,5 +1,5 @@
+import projectsArr from "@/constants/project-data.tsx";
 import ProjectCard from "../components/ProjectCard.tsx";
-import { projectsArr } from "../constants/project-data.tsx";
 import classes from "../styles/MainMenu.module.css";
 
 const MainMenu = () => {
