@@ -1,0 +1,51 @@
+.root {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.canvas-container {
+  width: 100%;
+  height: 100%;
+}
+
+.control-container {
+  flex-shrink: 0;
+
+  width: 100%;
+  height: 40%;
+
+  background-color: var(--bgc-sub);
+  border-top: 0.1rem solid var(--border-color);
+}
+
+.controls {
+  width: 23rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.restart-btn {
+  width: 100%;
+  margin: 0rem 0rem 1.5rem;
+  cursor: pointer;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+
+  border: 1px solid black;
+}
+
+.field > label {
+  margin-right: 0.5rem;
+}
+
+.field > input {
+}

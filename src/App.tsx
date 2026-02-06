@@ -1,6 +1,6 @@
+import projectsArr from "@/constants/project-data.tsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import MainHeader from "./components/MainHeader.tsx";
-import { projectsArr } from "./constants/project-data.tsx";
 import classes from "./styles/App.module.css";
 import MainMenu from "./views/MainMenu.tsx";
 import NotFound from "./views/NotFound.tsx";

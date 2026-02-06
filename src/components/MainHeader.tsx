@@ -1,5 +1,5 @@
+import projectsArr from "@/constants/project-data.tsx";
 import { useLocation } from "react-router";
-import { projectsArr } from "../constants/project-data.tsx";
 import classes from "../styles/MainHeader.module.css";
 import mergeCss from "../utils/merge-css.ts";
 

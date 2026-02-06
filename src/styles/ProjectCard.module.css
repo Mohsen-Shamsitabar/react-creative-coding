@@ -21,15 +21,18 @@
   flex-direction: column;
   width: 100%;
 
+  text-align: start;
+
   margin-right: 1rem;
 }
 
 .title {
-  margin: 0 0 1rem;
-  text-align: start;
+  margin: 0 0 0.5rem;
 }
 
 .description {
+  margin: 0rem;
+  font-size: small;
 }
 
 .image-container {
